@@ -3,12 +3,16 @@ using namespace std;
 
 dataBuffer::dataBuffer()
 {
-
+    int numElement, numSample, scanline = 0;
+    complex **dataMatrix = NULL;
+    dataBuffer *next = NULL;
 }
 
 dataBuffer::dataBuffer( std::ifstream *imagFile, std::ifstream *realFile, int inputNumElement, int inputNumSample, int inputScanline)
 {
-
+    inputNumElement = numElement;
+    inputNumSample = numSample;
+    inputScanline = scanline;
 } 
 
 dataBuffer::~dataBuffer()
